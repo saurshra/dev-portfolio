@@ -14,7 +14,7 @@ const Projects = () => {
               view live market prices and interactive charts for each
               cryptocurrency.This also allows users to convert crypto prices
               into different country currencies for better insights.`,
-      img: "/images/crypto.png",
+      img: "/dev-portfolio/images/crypto.png",
       web: "https://saurshra.github.io/Cryptocurrency/",
       git: "https://github.com/saurshra/Cryptocurrency",
     },
@@ -25,15 +25,21 @@ const Projects = () => {
               real-time updates and user-friendly interfaces. "Contributed to
               the frontend development, specifically in managing the customer
               list and enhancing the UI for better usability.`,
-      img: "/images/mrl.png",
+      img: "/dev-portfolio/images/mrl.png",
       web: "https://mrl.scottysthemovers.com.au/dashboards/crm/",
+    },
+    blog: {
+      title: "Blog",
+      description: ` The platform features an intuitive UI, allowing users to create, categorize, and tag blogs while supporting image uploads. Implemented backend authentication, RESTful APIs, and MongoDB for efficient data storage. Integrated dynamic rendering for improved user experience and ensured smooth functionality with Node.js and Express.js.`,
+      img: "/dev-portfolio/images/blog.png",
+      //web: "https://mrl.scottysthemovers.com.au/dashboards/crm/",
     },
     portfolio: {
       title: "Portfolio",
       description: ``,
-      img: "/images/portfolio.png",
+      img: "/dev-portfolio/images/portfolio.png",
       // web: "",
-      git: "#",
+      git: "https://github.com/saurshra/dev-portfolio",
     },
     taskmanager: {
       title: "Task Manager",
@@ -43,7 +49,7 @@ const Projects = () => {
               helped me further improve my skills in React and local storage
               management, enabling users to maintain their tasks even after page
               refresh.`,
-      img: "/images/taskmanager.png",
+      img: "/dev-portfolio/images/taskmanager.png",
       git: "https://github.com/saurshra/task-manager-updated",
     },
     myntra: {
@@ -53,14 +59,14 @@ const Projects = () => {
               feature along with responsive UI. This project helped me
               strengthen my React skills, including state management and
               component-based architecture.`,
-      img: "/images/myntra.png",
+      img: "/dev-portfolio/images/myntra.png",
       // web: "",
       git: "https://github.com/saurshra/Cryptocurrency",
     },
     newsapp: {
       title: "NewsApp",
       description: ` This News App is a modern and responsive news aggregator built using React and powered by the NewsAPI. It provides users with the latest news articles from various sources, covering different categories such as technology, sports, business, and entertainment. The app features a clean UI, seamless navigation, and real-time updates, ensuring users stay informed with trending news worldwide.`,
-      img: "/images/newsapp.png",
+      img: "/dev-portfolio/images/newsapp.png",
       //   // web: "",
       git: "https://github.com/saurshra/News_app",
     },

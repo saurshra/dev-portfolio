@@ -8,7 +8,7 @@ const Footer = () => {
         <div className="flex flex-row justify-center gap-5 mb-4">
           <div className="transition-transform duration-300 hover:scale-110">
             <a
-              href="https://linkedin.com"
+              href="https://www.linkedin.com/in/saurshra/"
               target="_blank"
               rel="noopener noreferrer"
               aria-label="LinkedIn"
@@ -18,7 +18,7 @@ const Footer = () => {
           </div>
           <div className="transition-transform duration-300 hover:scale-110">
             <a
-              href="https://github.com"
+              href="https://github.com/saurshra"
               target="_blank"
               rel="noopener noreferrer"
               aria-label="GitHub"

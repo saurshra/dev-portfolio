@@ -8,7 +8,7 @@ import { FolioContextProvider } from "./context/FolioContext.jsx";
 createRoot(document.getElementById("root")).render(
   <StrictMode>
     <FolioContextProvider>
-      <BrowserRouter>
+      <BrowserRouter basename="/dev-portfolio">
         <App />
       </BrowserRouter>
     </FolioContextProvider>

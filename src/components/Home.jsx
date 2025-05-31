@@ -3,6 +3,7 @@ import { BsLinkedin } from "react-icons/bs";
 import { FaGithub } from "react-icons/fa";
 import { HiOutlineMail } from "react-icons/hi";
 import { FolioContext } from "../context/FolioContext";
+import ImageAnimate from "./ImageAnimate";
 
 const Home = () => {
   const { theme } = useContext(FolioContext);
@@ -43,7 +44,7 @@ const Home = () => {
         </div>
         <div className="transition-transform duration-300 hover:scale-110">
           <a
-            href="https://github.com"
+            href="https://github.com/saurshra"
             target="_blank"
             rel="noopener noreferrer"
             aria-label="GitHub"
@@ -57,7 +58,7 @@ const Home = () => {
         </div>
         <div className="transition-transform duration-300 hover:scale-110">
           <a
-            href="https://linkedin.com"
+            href="https://www.linkedin.com/in/saurshra/"
             target="_blank"
             rel="noopener noreferrer"
             aria-label="LinkedIn"
@@ -78,7 +79,7 @@ const Home = () => {
             Hello
           </span>
           <img
-            src="/wave-hand.webp"
+            src="/dev-portfolio/wave-hand.webp"
             alt="Hi-hand"
             className="h-10 w-10 md:h-16 md:w-16"
           />
@@ -120,11 +121,12 @@ const Home = () => {
           </p>
         </div>
         <div className="md:w-1/2 flex justify-center items-center">
-          <img
+          {/* <img
             className="w-full md:w-1/2 rounded-2xl shadow-lg md:h-90 filter grayscale hover:grayscale-0 active:grayscale-0 transition duration-300 ease-in-out"
-            src="/images/saurshra.jpg"
+            src="/dev-portfolio/images/saurshra.jpg"
             alt="About Me"
-          />
+          /> */}
+          <ImageAnimate />
         </div>
       </div>
       <a

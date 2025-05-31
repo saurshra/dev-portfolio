@@ -5,32 +5,37 @@ const ProjectList = () => {
   const projects = [
     {
       id: "crypto",
-      img: "/images/crypto.png",
+      img: "/dev-portfolio/images/crypto.png",
       name: "CryptoCurrency",
     },
     {
       id: "mrl",
-      img: "/images/mrl.png",
+      img: "/dev-portfolio/images/mrl.png",
       name: "MRL",
     },
     {
+      id: "blog",
+      img: "/dev-portfolio/images/blog.png",
+      name: "Blog",
+    },
+    {
       id: "portfolio",
-      img: "/images/portfolio.png",
+      img: "/dev-portfolio/images/portfolio.png",
       name: "Mobile Portfolio",
     },
     {
       id: "taskmanager",
-      img: "/images/taskmanager.png",
+      img: "/dev-portfolio/images/taskmanager.png",
       name: "Task Manager",
     },
     {
       id: "myntra",
-      img: "/images/myntra.png",
+      img: "/dev-portfolio/images/myntra.png",
       name: "Myntra",
     },
     {
       id: "newsapp",
-      img: "/images/newsapp.png",
+      img: "/dev-portfolio/images/newsapp.png",
       name: "NewsApp",
     },
   ];
