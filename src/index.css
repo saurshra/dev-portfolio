@@ -42,3 +42,28 @@
 .animate-shake {
   animation: shake 0.5s ease-in-out;
 }
+
+@keyframes marquee {
+  0% {
+    transform: translateX(0%);
+  }
+  100% {
+    transform: translateX(-50%);
+  }
+}
+
+.animate-marquee {
+  animation: marquee 20s linear infinite;
+}
+
+.icon {
+  @apply flex items-center justify-center text-4xl sm:text-5xl md:text-6xl w-20 sm:w-24 md:w-28 h-20 sm:h-24 md:h-28;
+}
+
+
+
+
+
+
+
+

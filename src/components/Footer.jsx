@@ -1,5 +1,7 @@
-import { BsLinkedin } from "react-icons/bs"; // Import LinkedIn icon
-import { FaGithub } from "react-icons/fa"; // Import GitHub icon
+import { BsLinkedin } from "react-icons/bs"; 
+import { FaGithub } from "react-icons/fa"; 
+import { IoCallOutline } from "react-icons/io5";
+import { Link } from "react-router-dom";
 
 const Footer = () => {
   return (
@@ -26,9 +28,17 @@ const Footer = () => {
               <FaGithub className="text-2xl text-white transition-colors" />
             </a>
           </div>
+                              <div className="transition-transform duration-300 hover:scale-110">
+            <Link
+             to={'/contact'}
+            >
+              <IoCallOutline className="text-2xl text-white transition-colors" />
+            </Link>
+          </div>
+
         </div>
 
-        {/* Footer Text */}
+
         <div className="text-center text-white custom-font text-sm">
           Designed by saurshra
         </div>

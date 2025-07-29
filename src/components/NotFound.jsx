@@ -1,13 +1,15 @@
 import React, { useContext } from "react";
 import { FolioContext } from "../context/FolioContext";
+import { useNavigate } from "react-router-dom";
 
 const NotFound = () => {
   const { theme } = useContext(FolioContext);
+  const navigate = useNavigate();
   return (
     <div className="flex flex-col md:flex-row items-center justify-center h-screen  p-6">
       <div className="md:w-1/2 flex justify-center">
         <img
-          src="/images/errorpage.png"
+          src="/dev-portfolio/images/errorpage.png"
           alt="404 Not Found"
           className={`w-3/4 md:w-2/3 rounded-lg  ${
             theme ? "shadow-lg " : "shadow-white"
@@ -29,11 +31,13 @@ const NotFound = () => {
         >
           Oops! The page you're looking for doesn't exist.
         </p>
-        <a href="/">
-          <button className="mt-6 px-6 py-3 bg-slate-500 hover:bg-slate-600 rounded-lg text-white font-semibold transition custom-font cursor-pointer">
-            Go Home
-          </button>
-        </a>
+
+        <button
+          className="mt-6 px-6 py-3 bg-slate-500 hover:bg-slate-600 rounded-lg text-white font-semibold transition custom-font cursor-pointer"
+          onClick={() => navigate(-1)}
+        >
+          GO BACK
+        </button>
       </div>
     </div>
   );
