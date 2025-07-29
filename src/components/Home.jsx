@@ -114,7 +114,7 @@ const Home = () => {
         </div>
 
         <div
-          className={`custom-font text-xl sm:text-2xl md:text-3xl lg:text-4xl mt-4 sm:mt-5 md:mt-6 h-12 sm:h-14 md:h-16 flex items-center justify-center ${
+          className={`custom-font text-xl sm:text-2xl md:text-3xl lg:text-4xl mt-4 sm:mt-5 md:mt-6 text-center flex flex-col sm:flex-row items-center justify-center gap-1 ${
             theme ? "text-gray-200" : "text-gray-800"
           }`}
         >
