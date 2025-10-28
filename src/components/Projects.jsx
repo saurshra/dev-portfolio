@@ -8,7 +8,10 @@ import { FiArrowLeft } from "react-icons/fi";
 import { AiOutlineApi } from "react-icons/ai";
 import { RiNextjsFill } from "react-icons/ri";
 import {
+  SiEthereum,
   SiExpress,
+  SiIpfs,
+  SiJavascript,
   SiMongodb,
   SiNodedotjs,
   SiReact,
@@ -60,6 +63,55 @@ const Projects = () => {
       img: "/dev-portfolio/images/eventhub.jpg",
       web: "https://eventhub-o45b.onrender.com/",
       // git: "https://github.com/saurshra/UrbanNest",
+    },
+    trustflow: {
+      title: "TrustFlow",
+      description: `TrustFlow is a blockchain-powered certificate verification platform built using the MERN stack, Ethereum (Ethers.js), and MetaMask. It enables institutions to securely upload academic or professional certificates, while users can verify their authenticity in real-time through blockchain records. Each certificate’s hash is stored on the Ethereum blockchain, ensuring tamper-proof validation, and the files themselves are hosted on IPFS via Pinata for decentralized and immutable storage. The platform also includes an OTP-based signup and login system for verified access.  TrustFlow is evolving into a complete decentralized verification system with enhanced upload, authentication, and verification workflows.`,
+      techStack: [
+        { name: "React", icon: <SiReact className="text-3xl text-blue-500" /> },
+        {
+          name: "Node.js",
+          icon: <SiNodedotjs className="text-3xl text-green-600" />,
+        },
+        {
+          name: "Express",
+          icon: (
+            <SiExpress className="text-3xl text-gray-800 dark:text-gray-200" />
+          ),
+        },
+        {
+          name: "MongoDB",
+          icon: <SiMongodb className="text-3xl text-green-500" />,
+        },
+        {
+          name: "Ethereum",
+          icon: <SiEthereum className="text-3xl text-indigo-500" />,
+        },
+        {
+          name: "Ethers.js",
+          icon: <SiJavascript className="text-3xl text-yellow-400" />, // replace with custom icon if you have one
+        },
+        {
+          name: "IPFS (Pinata)",
+          icon: <SiIpfs className="text-3xl text-teal-500" />,
+        },
+        {
+          name: "Tailwind CSS",
+          icon: <SiTailwindcss className="text-3xl text-cyan-400" />,
+        },
+      ],
+      features: [
+        "Admin and user dashboards for certificate upload and verification",
+        "Blockchain integration using Ethers.js for hash-based authenticity checks",
+        "Decentralized file storage through IPFS (Pinata) ensuring data immutability",
+        "Secure OTP-based signup and authentication system",
+        "MetaMask integration for decentralized wallet-based interactions",
+        "Real-time blockchain verification displaying certificate authenticity status",
+        "User-friendly and responsive UI for seamless accessibility",
+      ],
+      img: "/dev-portfolio/images/blockchain.jpg",
+      web: "https://blockchain-t2z6.onrender.com/",
+      // git: "https://github.com/saurshra/blockchain-verification",
     },
     urbannest: {
       title: "UrbanNest",
