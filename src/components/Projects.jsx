@@ -109,7 +109,7 @@ const Projects = () => {
         "Real-time blockchain verification displaying certificate authenticity status",
         "User-friendly and responsive UI for seamless accessibility",
       ],
-      img: "/dev-portfolio/images/blockchain.jpg",
+      img: "/dev-portfolio/images/trustflow.jpg",
       web: "https://blockchain-t2z6.onrender.com/",
       // git: "https://github.com/saurshra/blockchain-verification",
     },

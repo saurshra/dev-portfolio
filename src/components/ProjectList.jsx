@@ -11,7 +11,7 @@ const ProjectList = () => {
       name: "EventHub",
     },
     {
-      id: "TrustFlow",
+      id: "trustflow",
       img: "/dev-portfolio/images/trustflow.jpg",
       name: "TruatFlow",
     },
